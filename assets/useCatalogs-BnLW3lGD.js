@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./useAsync-N4UkU3sf.js";import{t as n}from"./http-R-C7sSJT.js";var r={async companies(){return n(e().companies)},async users(){return n(e().users)},async bankAccounts(){return n(e().bankAccounts)}},i=()=>t(`catalogs:companies`,()=>r.companies()),a=()=>t(`catalogs:banks`,()=>r.bankAccounts());export{i as n,a as t};
